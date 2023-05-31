@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "881933933152",
+    "project_id": "taller-fc37d",
+    "storage_bucket": "taller-fc37d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881933933152:android:824f1511657c92ce480105",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmHpIFjSBN3hZ8JqPPRvp-Ws8noUusX7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
