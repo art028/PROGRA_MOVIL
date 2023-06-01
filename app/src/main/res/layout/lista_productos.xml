@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/lblCodigo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Codigos.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lblcodigo"
+        android:layout_toRightOf="@id/lblCodigo"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:text="XXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/lblCodigo"
+        android:text="Nombres.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lblnombre"
+        android:layout_toRightOf="@id/lblNombre"
+        android:layout_below="@id/lblcodigo"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:text="XXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lblCantidad"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/lblNombre"
+        android:text="Cantidad.."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lblcantidad"
+        android:layout_toRightOf="@id/lblCantidad"
+        android:layout_below="@id/lblnombre"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:text="XXXXXXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/lblFecha"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/lblCantidad"
+        android:text="Fecha Reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lblfecha"
+        android:layout_toRightOf="@id/lblFecha"
+        android:layout_below="@id/lblcantidad"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:text="2023-06-06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</RelativeLayout>

@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
     <LinearLayout
-        android:id="@+id/linearLayoutEditar"
-        android:orientation="vertical"
-        android:layout_margin="10dp"
-        android:background="#51ABF1"
-        android:visibility="gone"
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
+        android:layout_height="wrap_content"
+        android:background="#6CE5EF"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Insertar Producto"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+        
         <EditText
             android:id="@+id/inputCodigo"
             android:hint="Codigo.."
@@ -24,7 +27,6 @@
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-
         <EditText
             android:id="@+id/inputNombre"
             android:hint="Nombre.."
@@ -32,7 +34,6 @@
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-
         <EditText
             android:id="@+id/inputCantidad"
             android:hint="Cantidad.."
@@ -43,24 +44,12 @@
             android:layout_height="wrap_content"/>
         
         <Button
-            android:id="@+id/btnCancelar"
-            android:text="Cancelar"
-            
+            android:id="@+id/btnInsertar"
+            android:paddingTop="10dp"
+            android:text="Agregar Producto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        
-    </LinearLayout>
-    
-    <ListView
-        android:id="@+id/listViewProductos"
-        android:layout_margin="15dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
 
+    </LinearLayout>
 
 </LinearLayout>
-
-
-
-
-
