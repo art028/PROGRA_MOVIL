@@ -7,7 +7,7 @@ public class Productos {
     private String nombre;
     private String cantidad;
     private String fechareg;
-    private String timestamp;
+    private long timestamp;
 
     public String getIdproducto() {
         return idproducto;
@@ -49,11 +49,16 @@ public class Productos {
         this.fechareg = fechareg;
     }
 
-    public String getTimestamp() {
+    public long getTimestamp() {
         return timestamp;
     }
 
-    public void setTimestamp(String timestamp) {
+    public void setTimestamp(long timestamp) {
         this.timestamp = timestamp;
+    }
+
+    @Override
+    public String toString() {
+        return nombre;
     }
 }
